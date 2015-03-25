@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Robot</string>
+    <string name="action_settings">Settings</string>
+    <string name="logo">Robot</string>
+    <string name="exit">离开Robot</string>
+    <string name="about">关于Robot</string>
+    <string name="toSaySomething">说点什么吧…</string>
+    <string name="toSay">开讲</string>
+    <string name="ok">OK</string>
+    <string name="tip">图灵机器人平台是一个免费的API开放平台，基于自然语言处理、知识库和云计算等技术，为广大开发者、合作伙伴提供的一系列智能语义处理能力（包括语义理解、智能问答、知识库对接等）的服务平台。
+ 	\n图灵机器人平台能被运用到智能手机，智能电视，智能车载，智能移动端，网站客服等多领域，实现自然语言的智能交互。
+ 	\nRobot app小应用是一个有趣的聊天伙伴，能为你的生活增添乐趣！
+ 	\n
+ 	\n作者：kylin</string>
+
+</resources>

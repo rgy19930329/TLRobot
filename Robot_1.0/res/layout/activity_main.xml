@@ -1,0 +1,65 @@
+<LinearLayout
+ android:focusable="false"
+ android:focusableInTouchMode="false"
+ android:background="@drawable/main_bg"
+ android:layout_width="fill_parent"
+ android:layout_height="fill_parent"
+ android:gravity="center_horizontal"
+ android:orientation="vertical"
+ xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView
+     android:id="@+id/chat_list"
+     android:background="@null"
+     android:scrollbars="vertical"
+     android:layout_width="fill_parent"
+     android:layout_height="0dip"
+     android:layout_weight="1.0"
+     android:transcriptMode="alwaysScroll"
+     android:cacheColorHint="#000000"
+     android:divider="@null" 
+     android:listSelector="#00000000"/>
+    
+
+   <LinearLayout
+     android:orientation="horizontal"
+     android:background="@drawable/panel_bg"
+     android:paddingRight="7dip"
+     android:layout_marginTop="7dip"
+     android:layout_width="fill_parent"
+     android:layout_height="50dip">
+        <EditText
+         android:id="@+id/edit"
+         android:textColorHint="#ddd"
+         android:layout_gravity="center_vertical"
+         android:background="@drawable/corners_1"
+         android:focusable="true"
+         android:nextFocusRight="@+id/send_button"
+         android:layout_width="0dip"
+         android:layout_weight="0.8"
+         android:layout_height="wrap_content"
+         android:paddingLeft="7.0dip"
+         android:layout_marginLeft="10.0dip"
+         android:layout_marginTop="5.0dip"
+         android:layout_marginRight="7.0dip"
+         android:layout_marginBottom="5.0dip"
+         android:minHeight="34dip"
+         android:hint="@string/toSaySomething"
+         android:inputType="textCapSentences|textAutoCorrect|textMultiLine|textShortMessage"
+         android:imeOptions="actionSend|flagNoEnterAction" />
+        <Button
+         android:id="@+id/send"
+         android:gravity="center"
+         android:layout_gravity="center_vertical"
+         android:background="@drawable/send_selecter"
+         android:paddingLeft="11.0dip"
+         android:paddingRight="11.0dip"
+         android:nextFocusLeft="@id/edit"
+         android:layout_width="0dip"
+         android:layout_weight="0.2"
+         android:layout_height="40dip"
+         android:text="@string/toSay"
+         />
+     </LinearLayout>
+     
+     
+</LinearLayout>

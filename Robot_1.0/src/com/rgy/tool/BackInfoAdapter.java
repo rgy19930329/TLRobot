@@ -3,8 +3,6 @@ package com.rgy.tool;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-import com.rgy.robot.R;
-
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -12,6 +10,8 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.rgy.tlrobot.R;
 
 public class BackInfoAdapter extends BaseAdapter {
 	

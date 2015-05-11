@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Robot</string>
+    <string name="app_name">TLRobot</string>
     <string name="action_settings">Settings</string>
-    <string name="logo">Robot</string>
+    <string name="logo">TLRobot</string>
+    
     <string name="exit">离开Robot</string>
+    <string name="setting">设置</string>
     <string name="about">关于Robot</string>
+    
+    <string name="title">设置</string>
+    
     <string name="toSaySomething">说点什么吧…</string>
     <string name="toSay">开讲</string>
     <string name="ok">OK</string>

@@ -14,8 +14,6 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.LinkedHashMap;
 
-import com.rgy.robot.MainActivity;
-
 import android.app.ActivityManager;
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -24,7 +22,8 @@ import android.os.Environment;
 import android.os.StatFs;
 import android.support.v4.util.LruCache;
 import android.util.Log;
-import android.widget.Toast;
+
+import com.rgy.tlrobot.MainActivity;
 
 public class ImageCacheUtils {
 	

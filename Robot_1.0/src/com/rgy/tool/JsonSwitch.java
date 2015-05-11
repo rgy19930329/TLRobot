@@ -6,7 +6,6 @@ import com.rgy.entity.FlightType;
 import com.rgy.entity.HotelType;
 import com.rgy.entity.LinkType;
 import com.rgy.entity.NewsType;
-import com.rgy.entity.NewsType.NewsInfo;
 import com.rgy.entity.PriceType;
 import com.rgy.entity.SoftDLType;
 import com.rgy.entity.TextType;

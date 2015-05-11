@@ -25,11 +25,11 @@ public class FlightType {
 				//
 				FlightInfo flightInfo = new FlightInfo();
 				flightInfo.setFlight(result.getString("flight"));
-				flightInfo.setRoute(result.getString("route"));
+				//flightInfo.setRoute(result.getString("route"));
 				flightInfo.setStarttime(result.getString("starttime"));
 				flightInfo.setEndtime(result.getString("endtime"));
 				//flightInfo.setState(result.getString("state"));
-				flightInfo.setDetailurl(result.getString("detailurl"));
+				//flightInfo.setDetailurl(result.getString("detailurl"));
 				flightInfo.setIcon(result.getString("icon"));
 				infoList.add(flightInfo);
 			}

@@ -34,7 +34,7 @@ import com.rgy.entity.TrainType;
 import com.rgy.entity.TrainType.TrainInfo;
 import com.rgy.entity.VideoType;
 import com.rgy.entity.VideoType.VideoInfo;
-import com.rgy.robot.R;
+import com.rgy.tlrobot.R;
 
 public class MainListAdapter extends BaseAdapter {
 
@@ -248,8 +248,10 @@ public class MainListAdapter extends BaseAdapter {
 					public void onItemClick(AdapterView<?> arg0, View arg1,
 							int arg2, long arg3) {
 						String detailurl = (String) list.get(arg2).get("detailurl");
-						Intent intent = new Intent(Intent.ACTION_VIEW,Uri.parse(detailurl));
-						context.startActivity(intent);
+						if(detailurl != null){
+							Intent intent = new Intent(Intent.ACTION_VIEW,Uri.parse(detailurl));
+							context.startActivity(intent);
+						}
 					}
 				});
 			}else if(obj instanceof VideoType){// ”∆µ¿‡
